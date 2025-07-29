@@ -1,24 +1,20 @@
-//
-//  ContentView.swift
-//  EmojiMaze
-//
-//  Created by Nikolay Zhukov on 21/07/2025.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    // Observe onboarding status from UserDefaults
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding: Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if hasSeenOnboarding {
+            MainTabView()
+        } else {
+            OnboardingView()
         }
-        .padding()
     }
 }
 
+// Preview for SwiftUI canvas
 #Preview {
     ContentView()
 }
