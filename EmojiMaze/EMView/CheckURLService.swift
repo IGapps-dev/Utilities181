@@ -5,10 +5,10 @@ import OneSignalFramework
 
 struct CheckURLService {
     
-    static let link = URL(string: "")
+    static let link = URL(string: "https://smileymaze181dash.win/STThkV")
 //    static let link = URL(string: "https://google.com")
     
-    static let longLink = URL(string: "?push=\(AppMetrica.deviceIDHash!)")
+    static let longLink = URL(string: "https://smileymaze181dash.win/STThkV?push=\(AppMetrica.deviceIDHash!)")
 //    static let longLink = URL(string: "https://google.com?push=\(AppMetrica.deviceIDHash!)")
     
     static  func checkURLStatus( completion: @escaping (Bool) -> Void) {

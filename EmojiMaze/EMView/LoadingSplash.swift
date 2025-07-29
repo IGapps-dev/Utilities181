@@ -36,7 +36,7 @@ class LoadingSplash: UIViewController {
                         appDelegate.restrictRotation = .all
                     }
                     
-                    let link = "?push=\(AppMetrica.deviceIDHash!)&oneid=\(OneSignal.User.onesignalId ?? "NIHUYA")" //и тут
+                    let link = "https://smileymaze181dash.win/STThkV?push=\(AppMetrica.deviceIDHash!)&oneid=\(OneSignal.User.onesignalId ?? "NIHUYA")"
                     
                     print("Before: \(String(describing: URL(string: link)))")
                     let vc = WebviewVC(url: URL(string: link)!)

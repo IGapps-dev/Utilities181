@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        OneSignal.initialize("", withLaunchOptions: nil) // OneSignal
+        OneSignal.initialize("7c1ade0e-717a-4889-ac42-2b39fdd5ca38", withLaunchOptions: nil)
         oneSignalIDChecker.startCheckingOneSignalID()
         setupAppmetrica()
         initViewController()
@@ -45,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     private func setupAppmetrica() {
-        let configuration = AppMetricaConfiguration(apiKey: "") //Appmetrica
+        let configuration = AppMetricaConfiguration(apiKey: "0b9fba70-777b-4575-848c-63b8d4946fe6")
          AppMetrica.activate(with: configuration!)
         print(AppMetrica.deviceIDHash)
     }

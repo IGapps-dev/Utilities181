@@ -7,9 +7,9 @@ workflows:
         vars:
           XCODE_WORKSPACE: "EmojiMaze.xcworkspace"
           XCODE_SCHEME: "EmojiMaze"
-          BUNDLE_ID: "com.husnain.sylvanrest"
-          EXTENSION_BUDNLE_ID: "com.husnain.sylvanrest.OneSignalNotificationServiceExtension"
-          APP_STORE_APP_ID: 6747704474
+          BUNDLE_ID: "com.sarbenqwtolimp.qscc"
+          EXTENSION_BUDNLE_ID: "com.sarbenqwtolimp.qscc.OneSignalNotificationServiceExtension"
+          APP_STORE_APP_ID: 6749235986
         xcode: latest
         cocoapods: 1.14.2
       scripts:

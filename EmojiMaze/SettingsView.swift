@@ -33,9 +33,9 @@ struct SettingsView: View {
                 }
                 .padding(.trailing)
                 VStack(alignment: .leading, spacing: 12) {
-                    SettingsLinkButton(title: "Privacy Policy", url: "https://www.example.com/privacy")
-                    SettingsLinkButton(title: "Terms of Use", url: "https://www.example.com/terms")
-                    SettingsLinkButton(title: "Contact Us", url: "mailto:support@example.com")
+                    SettingsLinkButton(title: "Privacy Policy", url: "https://www.termsfeed.com/live/7fd8cb41-063e-4dd6-b217-cce2a1572ec8")
+                    SettingsLinkButton(title: "Terms of Use", url: "https://www.termsfeed.com/live/6b4d650c-c961-4fe2-83bf-a924576e93dc")
+                    SettingsLinkButton(title: "Contact Us", url: "https://docs.google.com/forms/d/e/1FAIpQLSdaXXeS55XHvOzdgygfnFyLe6Gb8fxqxhdih6I9N04GZwTw9Q/viewform")
                 }
                 Spacer()
             }
